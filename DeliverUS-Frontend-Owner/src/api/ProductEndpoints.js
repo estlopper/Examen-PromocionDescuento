@@ -20,6 +20,7 @@ function remove (id) {
   return destroy(`products/${id}`)
 }
 
+
 function promote (id) {
   return patch(`/products/${id}/promote`)
 }

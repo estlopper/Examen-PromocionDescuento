@@ -6,7 +6,7 @@ module.exports = {
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
-      },
+      }, 
       name: {
         allowNull: false,
         type: Sequelize.STRING
@@ -98,3 +98,4 @@ module.exports = {
     await queryInterface.dropTable('Restaurants')
   }
 }
+

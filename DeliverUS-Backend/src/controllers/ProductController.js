@@ -18,7 +18,7 @@ const indexRestaurant = async function (req, res) {
     res.status(500).send(err)
   }
 }
-
+ 
 const show = async function (req, res) {
   // Only returns PUBLIC information of products
   try {

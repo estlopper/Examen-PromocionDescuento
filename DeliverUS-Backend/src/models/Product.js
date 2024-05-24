@@ -18,6 +18,7 @@ const loadModel = (sequelize, DataTypes) => {
       Product.belongsToMany(models.Order, { as: 'orders', through: OrderProducts })
     }
   }
+  
   Product.init({
     name: DataTypes.STRING,
     description: DataTypes.STRING,

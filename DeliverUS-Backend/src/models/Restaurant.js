@@ -88,4 +88,4 @@ const loadModel = (sequelize, DataTypes) => {
   })
   return Restaurant
 }
-export default loadModel
+export default loadModel 

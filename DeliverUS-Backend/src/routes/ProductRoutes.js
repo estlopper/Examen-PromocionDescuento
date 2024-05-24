@@ -1,3 +1,4 @@
+
 import * as ProductValidation from '../controllers/validation/ProductValidation.js'
 import ProductController from '../controllers/ProductController.js'
 import { Product } from '../models/models.js'
@@ -49,5 +50,6 @@ const loadFileRoutes = (app) => {
     .patch(
       ProductController.promote
     )
+    
 }
 export default loadFileRoutes
